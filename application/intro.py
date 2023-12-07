@@ -7,7 +7,9 @@ def display_intro():
     startbutton = Tk()
     startbutton.geometry('500x500')
     button = Button(startbutton,text = 'Start')
+    button2 = Button(startbutton, text = 'Close')
     button.pack()
+    button2.pack()
     startbutton.mainloop()
 
 
