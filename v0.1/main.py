@@ -1,7 +1,7 @@
 #Welcome to the Secret Santa Program created by 0nlyFabs in October 2023
 #Please take a look at my GitHub repositories for more https://github.com/0nlyFabs?tab=repositories
 
-#I will also explain my code as I go along with comments gggggggg
+#I will also explain my code as I go along with comments grjgadsi;ug
 
 import intro
 import playernames
