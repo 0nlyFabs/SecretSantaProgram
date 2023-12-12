@@ -6,6 +6,10 @@
 import intro
 import playernames
 import randomassignment
+import gui
+
+#Creating GUI interface
+gui.start_app()
 
 #Here we are displaying the intro from intro.py file
 intro.display_intro()

@@ -5,6 +5,7 @@ import random
 
 def random_assignment(list):
 
+    return_list = []
     secretsantanameslist = list
     len_santa = len(secretsantanameslist)
 
@@ -19,8 +20,11 @@ def random_assignment(list):
             ran_var = random.randint(0, len_santa-1)
             if i != ran_var and ran_var not in blocked_names:
                 blocked_names.append(ran_var)
-                print(secretsantanameslist[i], 'will get', secretsantanameslist[ran_var], 'a gift for Secret Santa') 
+                text = secretsantanameslist[i] + ' will get ' + secretsantanameslist[ran_var] + ' a gift for Secret Santa'
+                return_list.append(text)
+                print(text) 
                 break  
         i+=1
 
     print('Thanks for playing!')
+    return return_list

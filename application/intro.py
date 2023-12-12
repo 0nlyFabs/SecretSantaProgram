@@ -1,16 +1,7 @@
 #Here it is a simple intro to the program, made with an ASCII art generator for some pizzaz
 
-from tkinter import *
 
 def display_intro():
-
-    startbutton = Tk()
-    startbutton.geometry('500x500')
-    button = Button(startbutton,text = 'Start')
-    button2 = Button(startbutton, text = 'Close')
-    button.pack()
-    button2.pack()
-    startbutton.mainloop()
 
 
     print('''
