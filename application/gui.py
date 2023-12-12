@@ -6,7 +6,7 @@ class MyApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Secret Santa")
-        welcome_message = "Welcome to Secret Santa Program V1.0! created by 0nlyFabs. Clearly you are here for a reason and want to get a round of Secret Santa going for your friends/family/co-workers/evil henchmen. Well you have come to the right place!"        
+        welcome_message = "Welcome to Secret Santa Program V0.2! created by 0nlyFabs and KALLAHARIKID. Clearly you are here for a reason and want to get a round of Secret Santa going for your friends/family/co-workers/evil henchmen. Well you have come to the right place!"        
 
         #Create opening message
         self.display_messagebox(welcome_message)
